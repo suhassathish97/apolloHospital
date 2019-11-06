@@ -11,5 +11,8 @@ public class Application {
 		for(String eachItem:nameList) {
 			System.out.println(eachItem);
 		}
+		
+		Book java = new Book(123,"Java Book for Beginners");
+		System.out.println(java.getBookName());
 	}
 }
